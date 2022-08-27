@@ -14,8 +14,8 @@ export function Share() {
 
   const openBottomSheet = useOsShareBottomSheet({
     value: {
-      title: '소영과 재엽의 wedding.log',
-      text: `소영과 재엽의 웨딩로그에 놀러오세요! \n ${
+      title: '요섭과 누리의 wedding.log',
+      text: `요섭과 누리의 웨딩로그에 놀러오세요! \n ${
         !isServer() ? window.location.href : ''
       }`,
     },

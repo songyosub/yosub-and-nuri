@@ -9,7 +9,7 @@ export function Footer() {
         size="sm"
         css={{ color: '$gray400', mt: '$4', textAlign: 'center' }}
       >
-        @Copyright Jbee, Soso
+        @Copyright Yosub
       </Text>
     </StyledFooter>
   );
