@@ -30,7 +30,7 @@ export function Header() {
         <a
           target="_blank"
           rel="noreferrer noopener"
-          href={link['선물목록 노션 링크']}
+          href={link['모바일 청첩장 링크']}
         >
           <PaperAirplane />
         </a>

@@ -3,30 +3,30 @@
   "description": "감사한 마음 잊지 않고 오랫동안 간직할게요.",
   "groom": [
     {
-      "holderName": "예금주명",
-      "bankName": "은행이름",
-      "accountNumber": "계좌번호",
-      "logo": "/assets/svg/kb.svg"
+      "holderName": "백미정",
+      "bankName": "카카오뱅크",
+      "accountNumber": "3333-19-9315738",
+      "logo": "/assets/svg/kakaobank.svg"
     },
     {
-      "holderName": "예금주명",
-      "bankName": "은행이름",
-      "accountNumber": "계좌번호",
-      "logo": "/assets/svg/tossbank.svg"
+      "holderName": "송요섭",
+      "bankName": "신한은행",
+      "accountNumber": "110-308-732355",
+      "logo": "/assets/svg/shinhan.svg"
     }
   ],
   "bridge": [
     {
-      "holderName": "예금주명",
-      "bankName": "은행이름",
-      "accountNumber": "계좌번호",
-      "logo": "/assets/svg/ibk.svg"
+      "holderName": "김옥현",
+      "bankName": "카카오뱅크",
+      "accountNumber": "XXXX-XX-XXXXXXX",
+      "logo": "/assets/svg/kakaobank.svg"
     },
     {
-      "holderName": "예금주명",
-      "bankName": "은행이름",
-      "accountNumber": "계좌번호",
-      "logo": "/assets/svg/kakaobank.svg"
+      "holderName": "이누리",
+      "bankName": "신한은행",
+      "accountNumber": "110-398-944403",
+      "logo": "/assets/svg/shinhan.svg"
     }
   ]
 }

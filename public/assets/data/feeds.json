@@ -4,18 +4,18 @@
       "id": 999,
       "contents": [
         {
-          "imageSrc": "/assets/img/temp.jpg",
+          "imageSrc": "/assets/img/1-1.jpg",
           "action": {
             "type": "normal",
-            "text": "단순 메세지 노출",
+            "text": "우측으로 밀어서 모바일 청첩장 구경하기",
             "color": "#7f1d1d"
           }
         },
         {
-          "imageSrc": "/assets/img/temp.jpg",
+          "imageSrc": "/assets/img/1-2.jpg",
           "action": {
             "type": "link",
-            "text": "링크 열기 기능 (결혼식장 안내)",
+            "text": "네이버 캘린더에 기록해두기",
             "color": "#d97706",
             "href": "https://m.calendar.naver.com",
             "mobileLink": "https://m.calendar.naver.com",
@@ -23,70 +23,112 @@
           }
         },
         {
-          "imageSrc": "/assets/img/temp.jpg",
+          "imageSrc": "/assets/img/1-3.jpg",
           "action": {
             "type": "link",
-            "text": "링크 열기 기능",
+            "text": "결혼식장 위치 보기",
             "color": "#3B6045",
-            "href": "https://m.map.naver.com/",
-            "mobileLink": "https://m.map.naver.com/",
-            "pcLink": "https://map.naver.com/"
+            "href": "https://naver.me/xpPm3zxo/",
+            "mobileLink": "https://naver.me/xpPm3zxo/",
+            "pcLink": "https://map.naver.com/v5/entry/place/13355258/"
           }
         },
         {
-          "imageSrc": "/assets/img/temp.jpg",
-          "action": {
-            "type": "bottom-sheet_toss",
-            "text": "바텀싯 열기 기능 (송금기능)",
-            "color": "#3182F6"
-          }
-        },
-        {
-          "imageSrc": "/assets/img/temp.jpg",
+          "imageSrc": "/assets/img/1-4.jpg",
           "action": {
             "type": "bottom-sheet_account",
-            "text": "바텀싯 열기 기능 (계좌 목록)",
+            "text": "계좌로 축의금 송금하기",
             "color": "#6B31E7"
           }
         }
       ],
-      "description": "저희 결혼해요! 20xx년 xx월 xx일 토요일 오전 xx시 xx분 서울특별시 강남구 청담동 xx로 xxx, xxxxx",
-      "createdAt": "2018-11-27"
+      "description": "저희 결혼해요! 2023 2월 18일 토요일 오후 1시 30분 명동 라루체 그레이스홀",
+      "createdAt": "2022-12-04"
     },
     {
       "id": 4,
       "contents": [
         {
-          "imageSrc": "/assets/img/temp.jpg"
+          "imageSrc": "/assets/img/2-1.jpg"
         },
         {
-          "imageSrc": "/assets/img/temp.jpg"
+          "imageSrc": "/assets/img/2-2.jpg"
         },
         {
-          "imageSrc": "/assets/img/temp.jpg"
+          "imageSrc": "/assets/img/2-3.jpg"
+        },
+                {
+          "imageSrc": "/assets/img/2-4.jpg"
         },
         {
-          "imageSrc": "/assets/img/temp.jpg"
+          "imageSrc": "/assets/img/2-5.jpg"
         }
       ],
-      "description": "피드 설명",
-      "tags": ["태그1", "태그2"]
+      "description": "[스냅로그] 제주스냅 ",
+      "tags": ["제주스냅", "새신랑", "새신부"]
     },
     {
       "id": 5,
       "contents": [
         {
-          "imageSrc": "/assets/img/temp.jpg"
+          "imageSrc": "/assets/img/3-1.jpg"
         },
         {
-          "imageSrc": "/assets/img/temp.jpg"
+          "imageSrc": "/assets/img/3-2.jpg"
         },
         {
-          "imageSrc": "/assets/img/temp.jpg"
+          "imageSrc": "/assets/img/3-3.jpg"
+        },
+                {
+          "imageSrc": "/assets/img/3-4.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/3-5.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/3-6.jpg"
         }
       ],
-      "description": "피드 설명",
-      "tags": ["태그1", "태그2"]
+      "description": "[여행로그] 함께했던 여행지들",
+      "tags": ["부산", "경주", "순천", "제주도"]
+    },
+    {
+      "id": 6,
+      "contents": [
+        {
+          "imageSrc": "/assets/img/4-1.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/4-2.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/4-3.jpg"
+        },
+                {
+          "imageSrc": "/assets/img/4-4.jpg"
+        }
+      ],
+      "description": "[신랑소개] 요섭소개",
+      "tags": []
+    },
+    {
+      "id": 7,
+      "contents": [
+        {
+          "imageSrc": "/assets/img/5-1.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/5-2.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/5-3.jpg"
+        },
+                {
+          "imageSrc": "/assets/img/5-4.jpg"
+        }
+      ],
+      "description": "[신부소개] 누리소개",
+      "tags": []
     }
   ]
 }

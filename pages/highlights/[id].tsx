@@ -144,7 +144,7 @@ export default function HighlightPage({ highlight, highlightDataSet }: Props) {
             thumbnailImage={highlight.thumbnailImage}
             onClose={router.back}
           >
-            {account.name}
+            <SName>{account.name}</SName>
           </Header>
           <StyledMotionDiv
             initial={{ opacity: 0 }}
@@ -178,7 +178,7 @@ export default function HighlightPage({ highlight, highlightDataSet }: Props) {
             thumbnailImage={highlight.thumbnailImage}
             onClose={router.back}
           >
-            {account.name}
+            <SName>{account.name}</SName>
           </Header>
           <StyledMotionDiv
             initial={{ opacity: 0 }}
@@ -199,4 +199,8 @@ export default function HighlightPage({ highlight, highlightDataSet }: Props) {
 
 const StyledMotionDiv = styled(motion.div, {
   marginTop: `calc(25vh - 68px)`,
+});
+
+const SName = styled('span', {
+  ml: '$8',
 });
