@@ -7,7 +7,7 @@
           "imageSrc": "/assets/img/1-1.jpg",
           "action": {
             "type": "normal",
-            "text": "우측으로 밀어서 모바일 청첩장 구경하기",
+            "text": "우측으로 밀어서 결혼식 정보 확인하기",
             "color": "#7f1d1d"
           }
         },
@@ -23,14 +23,14 @@
           }
         },
         {
-          "imageSrc": "/assets/img/1-33.jpg",
+          "imageSrc": "/assets/img/1-3.jpg",
           "action": {
             "type": "link",
             "text": "결혼식장 위치 보기",
             "color": "#3B6045",
-            "href": "https://naver.me/xpPm3zxo/",
-            "mobileLink": "https://naver.me/xpPm3zxo/",
-            "pcLink": "https://map.naver.com/v5/entry/place/13355258/"
+            "href": "https://map.naver.com/v5/entry/place/13355258",
+            "mobileLink": "https://map.naver.com/v5/entry/place/13355258",
+            "pcLink": "https://map.naver.com/v5/entry/place/13355258"
           }
         },
         {
@@ -42,7 +42,7 @@
           }
         }
       ],
-      "description": "저희 결혼해요! 2023 2월 18일 토요일 오후 1시 30분 명동 라루체 그레이스홀",
+      "description": "저희 결혼해요! 2023년 2월 18일 토요일 오후 1시 30분 명동 라루체 그레이스홀",
       "createdAt": "2022-12-04"
     },
     {
@@ -87,6 +87,9 @@
         },
         {
           "imageSrc": "/assets/img/3-6.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/3-7.jpg"
         }
       ],
       "description": "[여행로그] 함께했던 여행지들",
@@ -123,7 +126,7 @@
         {
           "imageSrc": "/assets/img/5-3.jpg"
         },
-                {
+        {
           "imageSrc": "/assets/img/5-4.jpg"
         }
       ],
