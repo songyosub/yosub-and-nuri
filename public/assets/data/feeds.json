@@ -49,19 +49,31 @@
       "id": 4,
       "contents": [
         {
-          "imageSrc": "/assets/img/2-1.jpg"
+          "imageSrc": "/assets/img/2-1.jpeg"
         },
         {
-          "imageSrc": "/assets/img/2-2.jpg"
+          "imageSrc": "/assets/img/2-2.jpeg"
         },
         {
-          "imageSrc": "/assets/img/2-3.jpg"
+          "imageSrc": "/assets/img/2-3.jpeg"
         },
                 {
-          "imageSrc": "/assets/img/2-4.jpg"
+          "imageSrc": "/assets/img/2-4.jpeg"
         },
         {
-          "imageSrc": "/assets/img/2-5.jpg"
+          "imageSrc": "/assets/img/2-5.jpeg"
+        },
+        {
+          "imageSrc": "/assets/img/2-6.jpeg"
+        },
+        {
+          "imageSrc": "/assets/img/2-7.jpeg"
+        },
+        {
+          "imageSrc": "/assets/img/2-8.jpeg"
+        },
+        {
+          "imageSrc": "/assets/img/2-9.jpeg"
         }
       ],
       "description": "[스냅로그] 제주스냅 ",
