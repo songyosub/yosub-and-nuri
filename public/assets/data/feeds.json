@@ -49,37 +49,6 @@
       "id": 4,
       "contents": [
         {
-          "imageSrc": "/assets/img/2-h-ocean-1.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/2-h-ocean-2.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/2-h-ocean-3.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/2-h-ocean-4.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/2-h-forest-1.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/2-h-flower-1.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/2-h-sunset-1.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/2-h-sunset-2.jpg"
-        }
-      ],
-      "description": "[스냅로그] 제주스냅 - 가로버전 ",
-      "tags": ["제주스냅", "새신랑", "새신부", "가로버전"]
-    },
-    {
-      "id": 5,
-      "contents": [
-        {
           "imageSrc": "/assets/img/2-v-ocean-1.jpg"
         },
         {
@@ -95,12 +64,6 @@
           "imageSrc": "/assets/img/2-v-flower-1.jpg"
         },
         {
-          "imageSrc": "/assets/img/2-v-flower-2.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/2-v-flower-3.jpg"
-        },
-        {
           "imageSrc": "/assets/img/2-v-sunset-1.jpg"
         },
         {
@@ -110,8 +73,36 @@
           "imageSrc": "/assets/img/2-v-sunset-3.jpg"
         }
       ],
-      "description": "[스냅로그] 제주스냅 ",
-      "tags": ["제주스냅", "새신랑", "새신부", "세로버전"]
+      "description": "[웨딩로그] 어느 가을날 제주 1",
+      "tags": ["제주스냅", "웨딩스냅", "220923"]
+    },
+    {
+      "id": 5,
+      "contents": [
+        {
+          "imageSrc": "/assets/img/2-h-ocean-1.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/2-h-ocean-2.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/2-h-ocean-3.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/2-h-forest-1.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/2-h-flower-1.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/2-h-sunset-1.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/2-h-sunset-2.jpg"
+        }
+      ],
+      "description": "[웨딩로그] 어느 가을날 제주 2",
+      "tags": ["제주스냅", "웨딩스냅", "220923"]
     },
     {
       "id": 6,
