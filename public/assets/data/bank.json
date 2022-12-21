@@ -18,9 +18,9 @@
   "bridge": [
     {
       "holderName": "김옥현",
-      "bankName": "카카오뱅크",
-      "accountNumber": "XXXX-XX-XXXXXXX",
-      "logo": "/assets/svg/kakaobank.svg"
+      "bankName": "NH농협은행",
+      "accountNumber": "307044-56-068824",
+      "logo": "/assets/svg/nh.svg"
     },
     {
       "holderName": "이누리",
