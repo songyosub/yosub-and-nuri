@@ -42,16 +42,14 @@ function MyApp({ Component, pageProps }: AppProps) {
           description: og.description,
           site_name: og.sitename,
           images: [
-            // FIXME: 보정본으로 교체 필요
             {
-              url: '/assets/img/2-4.jpg',
+              url: '/assets/img/2-h-ocean-1.jpg',
               width: 1200,
               height: 630,
               alt: og.title,
             },
-            // FIXME: 보정본으로 교체 필요
             {
-              url: '/assets/img/2-4.jpg',
+              url: '/assets/img/2-h-ocean-1.jpg',
               width: 800,
               height: 418,
               alt: og.title,
