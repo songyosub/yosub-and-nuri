@@ -5,6 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import { Share } from './Share';
 import { motion, useAnimation } from 'framer-motion';
 import { CheckIcon } from './CheckIcon';
+import { ShareKakao } from './ShareKakao';
 
 export function Footer() {
   const textAnimationControl = useAnimation();
@@ -51,7 +52,7 @@ export function Footer() {
           animate={textAnimationControl}
           custom={1.2}
         >
-          <Share />
+          <ShareKakao />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: 12 }}

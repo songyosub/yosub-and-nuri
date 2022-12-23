@@ -12,6 +12,12 @@ import { styled } from 'stitches.config';
 import { SWRConfig } from 'swr';
 import '../styles/globals.css';
 
+declare global {
+  interface Window {
+    Kakao: any;
+  }
+}
+
 const Main = styled('main', {
   position: 'relative',
   maxWidth: 520,
@@ -22,6 +28,7 @@ const Main = styled('main', {
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
+    window.Kakao.init(process.env.NEXT_PUBLIC_KAKAO_API_KEY);
     smoothscroll.polyfill();
   }, []);
 
