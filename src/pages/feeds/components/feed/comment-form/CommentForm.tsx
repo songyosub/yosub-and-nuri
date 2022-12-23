@@ -50,7 +50,7 @@ export function CommentForm({ id, onSubmit }: Props) {
       <Input
         {...register('message', { required: true, validate: x => x !== '' })}
         autoFocus={true}
-        placeholder="요섭💖누리에게 메세지 남기기"
+        placeholder="요섭❤️누리에게 메세지 남기기"
       />
       <SubmitButton disabled={formState.isSubmitting || !formState.isValid}>
         게시
