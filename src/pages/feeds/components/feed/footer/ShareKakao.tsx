@@ -5,13 +5,12 @@ import { Flex } from '@components/util/layout/Flex';
 
 const 공유하기_아이콘_크기 = 16;
 export function ShareKakao() {
-
   const openBottomSheet = () => {
     const { Kakao } = window;
     Kakao.Link.sendCustom({
       templateId: 87681,
     });
-  }
+  };
 
   return (
     <Flex.Center

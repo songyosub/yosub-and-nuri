@@ -29,7 +29,10 @@ export default class Document extends NextDocument {
           `,
             }}
           />
-          <script defer src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+          <script
+            defer
+            src="https://developers.kakao.com/sdk/js/kakao.js"
+          />
         </Head>
         <body>
           <Main />
