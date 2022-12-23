@@ -17,9 +17,9 @@
             "type": "link",
             "text": "네이버 캘린더에 기록해두기",
             "color": "#d97706",
-            "href": "https://m.calendar.naver.com",
-            "mobileLink": "https://m.calendar.naver.com",
-            "pcLink": "https://calendar.naver.com"
+            "href": "https://m.calendar.naver.com/#monthly/2023-02-18",
+            "mobileLink": "https://m.calendar.naver.com/#monthly/2023-02-18",
+            "pcLink": "https://m.calendar.naver.com/#monthly/2023-02-18"
           }
         },
         {
@@ -37,7 +37,7 @@
           "imageSrc": "/assets/img/1-4.jpg",
           "action": {
             "type": "bottom-sheet_account",
-            "text": "계좌로 축의금 송금하기",
+            "text": "신랑∙신부에게 마음 전하기",
             "color": "#6B31E7"
           }
         }
@@ -64,6 +64,9 @@
           "imageSrc": "/assets/img/2-v-flower-1.jpg"
         },
         {
+          "imageSrc": "/assets/img/2-v-flower-2.jpg"
+        },
+        {
           "imageSrc": "/assets/img/2-v-sunset-1.jpg"
         },
         {
@@ -71,9 +74,12 @@
         },
         {
           "imageSrc": "/assets/img/2-v-sunset-3.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/2-v-sunset-4.jpg"
         }
       ],
-      "description": "[웨딩로그] 어느 가을날 제주 1",
+      "description": "[웨딩로그] 어느 가을날 제주 1\n가장 예쁜 사진을 댓글로 남겨주세요 \uD83D\uDC95",
       "tags": ["제주스냅", "웨딩스냅", "220923"]
     },
     {
@@ -101,39 +107,11 @@
           "imageSrc": "/assets/img/2-h-sunset-2.jpg"
         }
       ],
-      "description": "[웨딩로그] 어느 가을날 제주 2",
+      "description": "[웨딩로그] 어느 가을날 제주 2\n가장 예쁜 사진을 댓글로 남겨주세요 \uD83D\uDC95",
       "tags": ["제주스냅", "웨딩스냅", "220923"]
     },
     {
       "id": 6,
-      "contents": [
-        {
-          "imageSrc": "/assets/img/3-1.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/3-2.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/3-3.jpg"
-        },
-                {
-          "imageSrc": "/assets/img/3-4.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/3-5.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/3-6.jpg"
-        },
-        {
-          "imageSrc": "/assets/img/3-7.jpg"
-        }
-      ],
-      "description": "[여행로그] 함께했던 여행지들",
-      "tags": ["부산", "경주", "순천", "제주도"]
-    },
-    {
-      "id": 7,
       "contents": [
         {
           "imageSrc": "/assets/img/4-1.jpg"
@@ -144,15 +122,21 @@
         {
           "imageSrc": "/assets/img/4-3.jpg"
         },
-                {
+        {
           "imageSrc": "/assets/img/4-4.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/4-5.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/4-6.jpg"
         }
       ],
-      "description": "[신랑소개] 요섭소개",
+      "description": "[신랑소개] 사진과 음악을 좋아하는 감성충만 개발자.\n평생을 조용하게 살았지만 밝고 활발한 신부를 만나 수다쟁이로 변해가는중 😝",
       "tags": []
     },
     {
-      "id": 8,
+      "id": 7,
       "contents": [
         {
           "imageSrc": "/assets/img/5-1.jpg"
@@ -175,6 +159,40 @@
       ],
       "description": "[신부소개] 누리소개",
       "tags": []
+    },
+    {
+      "id": 8,
+      "contents": [
+        {
+          "imageSrc": "/assets/img/3-1.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/3-2.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/3-3.jpg"
+        },
+                {
+          "imageSrc": "/assets/img/3-4.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/3-5.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/3-6.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/3-7.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/3-8.jpg"
+        },
+        {
+          "imageSrc": "/assets/img/3-9.jpg"
+        }
+      ],
+      "description": "[연애로그] 우리가 함께했던 순간들",
+      "tags": ["부산", "경주", "순천", "제주도"]
     }
   ]
 }

@@ -62,11 +62,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         additionalLinkTags={[
           {
             rel: 'icon',
-            href: '/assets/favicon/icon_36x36.png',
+            href: '/assets/favicon/favicon.png',
           },
           {
             rel: 'apple-touch-icon',
-            href: '/assets/favicon/icon_144x144.png',
+            href: '/assets/favicon/favicon.png',
             sizes: '144x144',
           },
         ]}
