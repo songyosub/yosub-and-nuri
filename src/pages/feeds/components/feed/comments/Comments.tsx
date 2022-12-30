@@ -62,11 +62,15 @@ export function Comments({ id, inputModeButton }: Props) {
       {hasOnlyOne ? (
         inputModeButton
       ) : folded ? (
-        <SmallGrayButton onClick={unfold}>
-          {comments.length - 1}개 더보기
-        </SmallGrayButton>
+        <>
+          <SmallGrayButton onClick={unfold}>
+            {comments.length - 1}개 더보기
+          </SmallGrayButton>
+          <br />
+          {inputModeButton}
+        </>
       ) : (
-        <SmallGrayButton onClick={fold}>접기</SmallGrayButton>
+        inputModeButton
       )}
     </>
   );
