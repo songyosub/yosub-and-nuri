@@ -76,7 +76,8 @@ function FeedItemContainer({
   const [isInputMode, toInputMode, toDisplayMode] = useBooleanState(false);
   const handleCommentIconClick = useCallback(() => {
     if (descriptionRef.current != null) {
-      scrollIntoView(descriptionRef.current, { offset: 0 });
+      window.scrollBy(0, 50);
+      // scrollIntoView(descriptionRef.current, { offset: 50 });
     }
     toInputMode();
   }, [toInputMode]);
