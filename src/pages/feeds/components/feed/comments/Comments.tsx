@@ -5,6 +5,8 @@ import { useComments } from '@pages/feeds/components/feed/comments/useComments';
 import { motion } from 'framer-motion';
 import React, { ReactNode } from 'react';
 import { styled } from 'stitches.config';
+import Text from '@components/text';
+import { Flex } from '@components/util/layout/Flex';
 
 const variants = {
   hidden: {
@@ -66,7 +68,7 @@ export function Comments({ id, inputModeButton }: Props) {
           <SmallGrayButton onClick={unfold}>
             {comments.length - 1}개 더보기
           </SmallGrayButton>
-          <br />
+          <SmallGrayButton compact>/</SmallGrayButton>
           {inputModeButton}
         </>
       ) : (
