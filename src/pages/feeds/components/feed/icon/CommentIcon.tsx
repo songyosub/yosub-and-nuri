@@ -4,9 +4,11 @@ import shake from '@utils/animation/shake';
 import { motion, useAnimation } from 'framer-motion';
 import React, { HTMLAttributes, MouseEvent, useCallback } from 'react';
 
-type Props = HTMLAttributes<HTMLButtonElement>;
+type Props = HTMLAttributes<HTMLButtonElement> & {
+  disabled?: boolean;
+};
 
-export function CommentIcon({ onClick, ...props }: Props) {
+export function CommentIcon({ onClick, disabled, ...props }: Props) {
   const commentAnimationControl = useAnimation();
 
   const animateSequence = useCallback(async () => {
@@ -35,6 +37,7 @@ export function CommentIcon({ onClick, ...props }: Props) {
         p: '$8',
         margin: '-8px',
       }}
+      disabled={disabled}
       {...props}
     >
       <motion.div animate={commentAnimationControl}>

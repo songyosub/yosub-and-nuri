@@ -96,7 +96,7 @@ function FeedItemContainer({
       <div ref={descriptionRef}>
         <DescriptionWrapper>
           <LikeIcon ref={likeIconRef} />
-          <CommentIcon onClick={handleCommentIconClick} />
+          <CommentIcon onClick={handleCommentIconClick} disabled />
         </DescriptionWrapper>
       </div>
       <div className={css({ px: '$16' })()}>
@@ -104,22 +104,6 @@ function FeedItemContainer({
         <Description>{description}</Description>
         {tags != null ? <Tags values={tags} /> : null}
       </div>
-      <SSRSuspense fallback={null}>
-        <CommentWrapper>
-          {isInputMode ? (
-            <CommentForm id={id} onSubmit={toDisplayMode} />
-          ) : (
-            <Comments
-              id={id}
-              inputModeButton={
-                <SmallGrayButton onClick={handleCommentIconClick}>
-                  댓글 남기기
-                </SmallGrayButton>
-              }
-            />
-          )}
-        </CommentWrapper>
-      </SSRSuspense>
     </Wrapper>
   );
 }
