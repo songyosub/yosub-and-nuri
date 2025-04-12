@@ -10,9 +10,9 @@
   ],
   "private": true,
   "scripts": {
-    "dev": "next dev -p ${PORT-3030}",
-    "build": "next build",
-    "start": "next start"
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider && next dev -p ${PORT-3030}",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider && next start"
   },
   "dependencies": {
     "@radix-ui/react-visually-hidden": "^0.0.14",
